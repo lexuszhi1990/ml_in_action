@@ -1,5 +1,4 @@
 *.pyc
 /Ch*/EXTRAS
-
-/Ch02/digits
-/Ch04/email
+/Ch*/digits
+/Ch*/email
