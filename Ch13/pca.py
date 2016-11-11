@@ -59,3 +59,10 @@ def replaceNanWithMean():
 # secomDataMeanRemoved = secomDataMat - secomDataMean
 # secomDataCov = np.cov(secomDataMeanRemoved, rowvar=0)
 # eigVals, tigVectors = np.linalg.eig(np.mat(secomDataCov))
+# eigValInd = np.argsort(eigVals)
+# eigValInd = eigValInd[:-(8+1):-1]
+# eigVals[eigValInd]
+# redEigVects = tigVectors[:,eigValInd]
+
+# references:
+# http://blog.csdn.net/zhongkelee/article/details/44064401
